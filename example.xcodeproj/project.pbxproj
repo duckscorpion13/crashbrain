@@ -1284,11 +1284,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODEPUSH_KEY = "v44WZxhghxMiu-APvdQGm7Yvy5vz6f9ce9cc-8ddd-4fdf-9eb8-65611fa82b03";
 				CODE_SIGN_ENTITLEMENTS = example/example.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = P9EZG3V6S8;
+				DEVELOPMENT_TEAM = XDWLQ38K2K;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-wkwebview-reborn/ios/RCTWKWebView",
@@ -1312,7 +1312,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lbd.crashbrain;
 				PRODUCT_NAME = example;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = crashbrain_release;
 				SWIFT_OBJC_BRIDGING_HEADER = "example-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -1329,10 +1329,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODEPUSH_KEY = "wsNefs62xqlUXqUlM1DWhkFWGMzr6f9ce9cc-8ddd-4fdf-9eb8-65611fa82b03";
 				CODE_SIGN_ENTITLEMENTS = example/example.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P9EZG3V6S8;
+				DEVELOPMENT_TEAM = XDWLQ38K2K;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-wkwebview-reborn/ios/RCTWKWebView",
@@ -1356,7 +1356,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lbd.crashbrain;
 				PRODUCT_NAME = example;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = crashbrain_release;
 				SWIFT_OBJC_BRIDGING_HEADER = "example-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

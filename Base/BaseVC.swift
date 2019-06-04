@@ -72,10 +72,10 @@ class BaseVC: WkWebVC {
     override func viewDidLoad() {
         super.viewDidLoad()
      
-        UIApplication.shared.statusBarView?.backgroundColor = UIColor.init(red: 0x00/0xFF,
-                                                                           green: 0x88/0xFF,
-                                                                           blue: 0xFE/0xFF,
-                                                                           alpha: 1.0)
+//        UIApplication.shared.statusBarView?.backgroundColor = UIColor.init(red: 0x00/0xFF,
+//                                                                           green: 0x88/0xFF,
+//                                                                           blue: 0xFE/0xFF,
+//                                                                           alpha: 1.0)
       
 //        print(UIDevice.current.identifierForVendor?.uuidString)
 

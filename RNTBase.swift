@@ -45,15 +45,15 @@ class RNTBase: UIView
     guard let parentVC = parentViewController else {
       return
     }
-    let mystoryboard = UIStoryboard.init(name: "Main", bundle:nil)
-    if let vc = mystoryboard.instantiateViewController(withIdentifier: "BaseVC") as? BaseVC {
+//    let mystoryboard = UIStoryboard.init(name: "Main", bundle:nil)
+    let vc = BaseVC()//mystoryboard.instantiateViewController(withIdentifier: "BaseVC") as? BaseVC {
       parentVC.addChild(vc)
       addSubview(vc.view)
       vc.urlStr = srcUrl
       vc.view.frame = bounds
       vc.didMove(toParent: parentVC)
       self.myVC = vc
-    }
+//    }
   }
   
 
